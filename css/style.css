@@ -1,0 +1,45 @@
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-image: url(../images/Wave-100s-1366px\ \(2\).svg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: right;
+ height: 100vh;
+}
+
+.text-spec {
+ color: #653383
+}
+.bg-spec {
+ background-color:  #653383
+}
+button {
+ cursor: pointer;
+}
+
+#quiz,#finish,#correct,#inCorrect,#alert
+{
+ display: none;   
+}
+
+@media (max-width: 576px) {
+
+ h1 {
+  font-size: 2rem !important;
+ }
+
+ .w-50 {
+  width: 90% !important;
+ }
+}
+
+@media (max-width: 768px) {
+ .w-50 {
+  width: 90% !important;
+ }
+}
+@media (max-width: 992px) {
+ .w-50 {
+  width: 80% !important;
+ }
+}
